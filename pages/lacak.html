@@ -1,0 +1,130 @@
+<div class="page-header">
+  <div class="container">
+    <span class="badge badge-primary">Transparansi Layanan Adopsi</span>
+    <h1 class="page-header-title">Lacak Status Pengajuan Adopsi</h1>
+    <p class="page-header-desc">
+      Pantau tahapan screening dan verifikasi adopsi kucing kampus Anda secara mandiri menggunakan Nomor Pengajuan dan Kode Tracking resmi.
+    </p>
+  </div>
+</div>
+
+<div class="container lacak-wrap">
+  
+  <div class="lacak-card">
+    <div class="lacak-header">
+      <span class="badge badge-accent">Pencarian Tiket Adopsi</span>
+      <h2>Masukkan Data Tiket Anda</h2>
+      <p>Data tiket diberikan saat Anda menyelesaikan pengisian formulir pengajuan adopsi kucing.</p>
+    </div>
+
+    <form id="formLacakAdopsi" novalidate>
+      
+      <div class="form-group">
+        <label for="inputNomorPengajuan" class="form-label">
+          Nomor Pengajuan Adopsi <span class="req">*</span>
+        </label>
+        <input 
+          type="text" 
+          id="inputNomorPengajuan" 
+          name="nomor_pengajuan" 
+          class="form-control" 
+          placeholder="Contoh: ADP-2026-001" 
+          maxlength="20"
+          autocomplete="off"
+        >
+        <div class="form-helper">Format harus diawali ADP-Tahun-Nomor (Contoh: ADP-2026-001)</div>
+        <div class="feedback-msg" id="msgNomorPengajuan"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="inputKodeTracking" class="form-label">
+          Kode Tracking Keamanan <span class="req">*</span>
+        </label>
+        <input 
+          type="text" 
+          id="inputKodeTracking" 
+          name="kode_tracking" 
+          class="form-control" 
+          placeholder="Contoh: TRK-8812" 
+          maxlength="20"
+          autocomplete="off"
+        >
+        <div class="form-helper">Kode alfanumerik minimal 6 karakter yang tertera pada bukti pengajuan</div>
+        <div class="feedback-msg" id="msgKodeTracking"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="inputWhatsapp" class="form-label">
+          Nomor WhatsApp Pemohon <span style="font-size: 0.8rem; font-weight: normal; color: var(--text-light);">(Opsional untuk verifikasi)</span>
+        </label>
+        <input 
+          type="tel" 
+          id="inputWhatsapp" 
+          name="nomor_whatsapp" 
+          class="form-control" 
+          placeholder="Contoh: 081234567890" 
+          maxlength="15"
+          autocomplete="off"
+        >
+        <div class="feedback-msg" id="msgWhatsapp"></div>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-submit-lacak" id="btnSubmitLacak">
+        <span id="btnText">Lacak Pengajuan Sekarang</span>
+        <span id="btnSpinner" style="display: none;">Menghubungi Server HTTP...</span>
+      </button>
+
+    </form>
+
+    <div class="sample-tickets-helper">
+      <strong>Tiket Uji Coba Cepat (Klik untuk mengisi otomatis):</strong>
+      <div style="margin-top: 8px;">
+        <span class="sample-ticket-pill" data-no="ADP-2026-001" data-trk="TRK-8812" title="Klik untuk pakai">ADP-2026-001 (Disetujui / Si Belang)</span>
+        <span class="sample-ticket-pill" data-no="ADP-2026-002" data-trk="TRK-4421" title="Klik untuk pakai">ADP-2026-002 (Wawancara / Mochi)</span>
+        <span class="sample-ticket-pill" data-no="ADP-2026-003" data-trk="TRK-1109" title="Klik untuk pakai">ADP-2026-003 (Review / Oyen)</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="hasilTracking">
+    
+    <div class="ticket-header">
+      <div class="ticket-id">
+        <span id="trackLabelKampus">Kampus Ketintang</span>
+        <h4 id="trackNomorTiket">ADP-2026-001</h4>
+        <span>Kucing yang diajukan: <strong id="trackNamaKucing" style="color: var(--primary);">Si Belang (KTT-01)</strong></span>
+      </div>
+      <div>
+        <span class="status-badge-lg status-selesai" id="trackStatusBadge">Disetujui</span>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; background-color: var(--bg-page); padding: 16px; border-radius: var(--radius-sm); margin-bottom: 20px; font-size: 0.9rem;">
+      <div>
+        <span style="color: var(--text-light); display: block;">Nama Pemohon:</span>
+        <strong id="trackNamaPemohon">Lio*** Jev**</strong>
+      </div>
+      <div>
+        <span style="color: var(--text-light); display: block;">Tanggal Diajukan:</span>
+        <strong id="trackTanggalPengajuan">20 Oktober 2026</strong>
+      </div>
+    </div>
+
+    <h4 style="font-size: 1.1rem; color: var(--text-main); margin-bottom: 12px;">Progres Tahapan Adopsi:</h4>
+    
+    <div class="timeline-stepper" id="trackTimelineStepper">
+    </div>
+
+    <div class="admin-note-box">
+      <h5>Catatan Tim Verifikator Jaga Satwa:</h5>
+      <p id="trackCatatanAdmin">Berkas pengajuan Anda telah diterima dan sedang diproses.</p>
+    </div>
+
+    <div style="text-align: center; margin-top: 28px;">
+      <button type="button" class="btn btn-outline" id="btnResetLacak">Lacak Tiket Lainnya</button>
+    </div>
+
+  </div>
+
+</div>

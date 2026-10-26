@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MeowNesa - Portal Edukasi Satwa Kampus & Lacak Pengajuan Adopsi Jaga Satwa UNESA. Tugas UTS Pemrograman Web 2026/2027.">
+  <meta name="author" content="Reissa Nathania Syahfitri - 25091397014">
+  <title>MeowNesa – Edukasi &amp; Lacak Pengajuan Adopsi Kucing UNESA</title>
+  <link rel="icon" type="image/png" href="img/brand/head.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container navbar">
+      
+      <a href="#beranda" class="brand" data-page="beranda" aria-label="MeowNesa">
+        <img src="img/brand/wordmark.png" alt="MeowNesa" class="brand-logo" onerror="this.src='brand/wordmark.png'">
+      </a>
+
+      <button type="button" class="nav-toggle" id="navToggle" aria-label="Buka Menu Navigasi" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li>
+            <a href="#beranda" class="nav-link active" data-page="beranda">Beranda</a>
+          </li>
+          <li>
+            <a href="#artikel" class="nav-link" data-page="artikel">Artikel &amp; Edukasi</a>
+          </li>
+          <li>
+            <a href="#donasi" class="nav-link" data-page="artikel" data-scroll="donasiSection">Donasi Satwa</a>
+          </li>
+          <li>
+            <a href="#lacak" class="nav-link nav-cta" data-page="lacak">Lacak Pengajuan</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="konten">
+    <div class="spa-loader">
+      <div class="spinner"></div>
+      <p>Memuat konten MeowNesa...</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <img src="img/brand/wordmark-white.png" alt="MeowNesa" class="footer-logo" onerror="this.src='brand/wordmark-white.png'">
+          <p>
+            Sistem informasi terpadu komunitas <strong>Jaga Satwa UNESA</strong> untuk pengelolaan populasi, edukasi kalung proteksi, dan transparansi pengajuan adopsi di Kampus Ketintang &amp; Kampus Lidah Wetan.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Navigasi Cepat</h5>
+          <ul>
+            <li><a href="#beranda">Beranda Edukasi</a></li>
+            <li><a href="#artikel">Pusat Artikel &amp; Kalung</a></li>
+            <li><a href="#donasi">Donasi Operasional Pakan</a></li>
+            <li><a href="#lacak">Lacak Status Pengajuan</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Identitas Mahasiswa</h5>
+          <ul>
+            <li><strong>Nama:</strong> Reissa Nathania Syahfitri</li>
+            <li><strong>NIM:</strong> 25091397014</li>
+            <li><strong>Kelompok:</strong> A07 (Kelompok 7)</li>
+            <li><strong>Dosen:</strong> Ari Kurniawan, S.Kom., M.T.</li>
+            <li><strong>Prodi:</strong> D4 Manajemen Informatika</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 <strong>MeowNesa – Jaga Satwa UNESA</strong>. Tugas UTS Pemrograman Web Gasal 2026/2027.
+        </div>
+        <div>
+          <span class="footer-badge">HTML5 &bull; CSS3 &bull; jQuery 3.7.1</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/data-artikel.js"></script>
+  <script src="js/data-tracking.js"></script>
+  <script src="js/pages-beranda.js"></script>
+  <script src="js/pages-artikel.js"></script>
+  <script src="js/pages-lacak.js"></script>
+  <script src="js/artikel.js"></script>
+  <script src="js/lacak.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

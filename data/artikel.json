@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "kategori": "Edukasi Kalung",
+    "badge_class": "badge-kalung",
+    "judul": "Filosofi Kalung Kucing UNESA: Menyelamatkan Nyawa di Kampus",
+    "ringkasan": "Bukan sekadar aksesoris biasa. Kalung kucing UNESA dilengkapi material reflektif yang menyala saat tersorot lampu kendaraan malam hari dan menandai status sterilisasi medis.",
+    "tanggal": "18 Oktober 2026",
+    "penulis": "Tim Edukasi Jaga Satwa",
+    "gambar": "brand/cat-yellow.png",
+    "konten_lengkap": [
+      "Setiap kucing yang berkeliaran di lingkungan Universitas Negeri Surabaya (Kampus Ketintang & Kampus Lidah Wetan) diberikan kalung khusus berbandul identitas resmi Jaga Satwa UNESA. Kalung ini dibuat dengan bahan reflective webbing standar keselamatan jalan raya yang akan memantulkan cahaya lampu kendaraan bermotor di malam hari, sehingga kucing terlihat jelas oleh pengendara dan terhindar dari tabrakan.",
+      "Selain fungsi keselamatan fisik, warna dan kode pada kalung menandakan bahwa kucing tersebut telah melalui pendataan terpadu, pemeriksaan parasit, vaksinasi rabies/tricat, dan operasi sterilisasi.",
+      "HIMBAUAN PENTING: DILARANG KERAS MELEPAS KALUNG KUCING KAMPUS. Melepas kalung berarti menghilangkan tanda proteksi keselamatan kucing dan membuat status medis mereka tidak dapat dikenali oleh petugas lapangan."
+    ],
+    "poin_kunci": [
+      "Bahan reflektif menyala terang saat terkena sorot lampu motor/mobil di malam hari.",
+      "Tanda resmi bahwa kucing sudah steril, sehat, dan terpantau dalam database MeowNesa.",
+      "Dilengkapi bandul liontin dengan kontak darurat Jaga Satwa jika kucing terluka atau tersesat keluar gerbang kampus."
+    ]
+  },
+  {
+    "id": 2,
+    "kategori": "Kesehatan & Steril",
+    "badge_class": "badge-medis",
+    "judul": "Kerjasama Medis dengan Klinik Nusantara Vet & Program TNR",
+    "ringkasan": "Mengontrol populasi satwa kampus secara etis dan manusiawi melalui pendekatan Trap-Neuter-Return (TNR) di bawah pengawasan dokter hewan berpengalaman.",
+    "tanggal": "12 Oktober 2026",
+    "penulis": "Divisi Medis Jaga Satwa",
+    "gambar": "brand/head.png",
+    "konten_lengkap": [
+      "Jaga Satwa UNESA tidak pernah melakukan pemindahan paksa atau peracunan kucing liar. Sejak tahun 2021, kami bermitra secara resmi dengan Klinik Nusantara Vet untuk menjalankan program sterilisasi massal berskala kampus.",
+      "Setiap kucing yang ditangkap (Trap) dibawa ke klinik untuk pemeriksaan darah, pemberian obat cacing, dan operasi kastrasi/ovariohisterektomi (Neuter). Kucing kemudian dirawat di ruang pemulihan pasca operasi selama 3 hingga 5 hari hingga luka jahitan mengering sempurna, sebelum dilepaskan kembali (Return) ke wilayah teritori awalnya di kampus.",
+      "Program ini terbukti menstabilkan jumlah populasi kucing tanpa merusak keseimbangan ekosistem alami kampus UNESA."
+    ],
+    "poin_kunci": [
+      "Kemitraan resmi dengan dokter hewan profesional Klinik Nusantara Vet.",
+      "Vaksinasi Tricat & Rabies diberikan secara bertahap untuk menjaga kekebalan kelompok.",
+      "Proses pemulihan klinis terstandar sebelum kucing dilepasliarkan kembali ke fakultas asalnya."
+    ]
+  },
+  {
+    "id": 3,
+    "kategori": "Etika Interaksi",
+    "badge_class": "badge-etika",
+    "judul": "Etika Street Feeding: Memberi Makan Kucing Kampus Tanpa Mengotori",
+    "ringkasan": "Panduan praktis bagi mahasiswa dan civitas akademika yang ingin berbagi makanan dengan kucing kampus secara bertanggung jawab dan bersih.",
+    "tanggal": "05 Oktober 2026",
+    "penulis": "Relawan Lapangan Jaga Satwa",
+    "gambar": "brand/cat.png",
+    "konten_lengkap": [
+      "Kepedulian civitas akademika UNESA terhadap kucing jalanan sangat diapresiasi. Namun, pemberian makanan yang tidak tertib dapat menimbulkan bau sisa pakan, mengundang lalat, dan mengotori lorong gedung perkuliahan.",
+      "Gunakan selalu wadah makanan bersih (seperti alas daun, kertas minyak, atau piring plastik yang bisa dibawa kembali) dan hindari meletakkan pakan basah (wetfood) langsung di atas ubin koridor atau dekat ruang kuliah ber-AC.",
+      "Tunggulah sampai kucing selesai makan, lalu bersihkan sisa wadah dan buang ke tempat sampah organik/anorganik terdekat."
+    ],
+    "poin_kunci": [
+      "Beri makan di titik feeding station yang telah ditentukan atau area taman terbuka.",
+      "Jangan tinggalkan kaleng wetfood bertepi tajam karena dapat melukai mulut atau lidah kucing.",
+      "Pakan basah sebaiknya habis dalam waktu 30 menit agar tidak basi dan berbau di cuaca terik."
+    ]
+  },
+  {
+    "id": 4,
+    "kategori": "Edukasi Adopsi",
+    "badge_class": "badge-adopsi",
+    "judul": "Mengapa Pengajuan Adopsi MeowNesa Memerlukan Screening?",
+    "ringkasan": "Adopsi adalah komitmen belasan tahun. Pelajari mengapa MeowNesa menerapkan tahap verifikasi hunian dan komitmen sebelum serah terima kucing dilakukan.",
+    "tanggal": "28 September 2026",
+    "penulis": "Koordinator Adopsi Jaga Satwa",
+    "gambar": "brand/head-yellow.png",
+    "konten_lengkap": [
+      "Banyak kasus di mana kucing jalanan diadopsi secara impulsif karena lucu, namun kemudian ditelantarkan kembali saat pemiliknya pindah kos atau merasa terbebani biaya pakan dan pasir.",
+      "Untuk melindungi kucing kampus yang sudah kami rawat dan sterilkan, formulir pengajuan adopsi MeowNesa dilengkapi dengan nomor tiket dan kode tracking agar calon adopter dapat memantau setiap proses verifikasi berkas secara objektif dan transparan.",
+      "Tim relawan akan memvalidasi izin pemilik tempat tinggal (khusus anak kos) dan memastikan adopter siap memberikan nutrisi layak serta perawatan medis berkala."
+    ],
+    "poin_kunci": [
+      "Adopsi di Jaga Satwa UNESA bersifat 100% GRATIS dan tanpa biaya tebusan.",
+      "Kucing yang diserahterimakan dipastikan sudah steril medis dan dalam kondisi fit.",
+      "Adopter wajib menyetujui pemantauan berkala pasca-adopsi selama minimal 6 bulan."
+    ]
+  },
+  {
+    "id": 5,
+    "kategori": "Informasi Kampus",
+    "badge_class": "badge-kampus",
+    "judul": "Mengenal Teritori Satwa di Kampus Ketintang & Lidah Wetan",
+    "ringkasan": "Karakteristik penyebaran kucing kampus dari Gedung Vokasi, FT, FMIPA hingga kawasan asri Danau Unesa Lidah Wetan.",
+    "tanggal": "20 September 2026",
+    "penulis": "Tim Patroli Harian",
+    "gambar": "brand/cat-white.png",
+    "konten_lengkap": [
+      "Kucing memiliki sifat teritorial yang sangat kuat. Di Kampus Ketintang, kelompok kucing berpusat di sekitar kantin Fakultas Teknik, pelataran Fakultas Vokasi, dan gedung FMIPA karena sumber pakan dan tempat berteduh yang teduh.",
+      "Sementara di Kampus Lidah Wetan, kucing tersebar di area FBS, sekitar Fakultas Ilmu Keolahragaan, serta pinggiran Danau UNESA. Setiap kelompok dipimpin oleh beberapa kucing dominan yang sudah terdata.",
+      "Jaga Satwa melakukan patroli pakan harian shift pagi (07.30 WIB) dan sore (16.30 WIB) untuk memastikan kucing di seluruh spot utama mendapatkan asupan nutrisi seimbang."
+    ],
+    "poin_kunci": [
+      "Kampus Ketintang: Mayoritas di FIP, FBS lama, Fakultas Teknik, dan Vokasi.",
+      "Kampus Lidah Wetan: Titik terpusat di Danau Rektorat, FBS Baru, dan Gedung Rektorat.",
+      "Patroli feeding dilakukan dua kali sehari secara disiplin oleh relawan mahasiswa."
+    ]
+  }
+]

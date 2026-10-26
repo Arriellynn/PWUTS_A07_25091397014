@@ -1,0 +1,122 @@
+<div class="page-header">
+  <div class="container">
+    <span class="badge badge-primary">Edukasi &amp; Kesejahteraan Satwa</span>
+    <h1 class="page-header-title">Artikel Edukasi &amp; Panduan Kampus</h1>
+    <p class="page-header-desc">
+      Kumpulan artikel resmi Jaga Satwa UNESA mengenai proteksi kalung keselamatan, program kesehatan kucing kampus, etika street feeding, dan panduan adopsi bertanggung jawab.
+    </p>
+  </div>
+</div>
+
+<div class="container">
+  
+  <div class="artikel-toolbar">
+    <div class="search-box">
+      <input type="text" id="inputCariArtikel" class="search-input" placeholder="Cari artikel edukasi (contoh: kalung, steril, pakan, adopsi)..." autocomplete="off">
+    </div>
+
+    <div class="category-filters" id="kategoriFilters">
+      <button type="button" class="filter-btn active" data-filter="all">Semua Topik</button>
+      <button type="button" class="filter-btn" data-filter="Edukasi Kalung">Edukasi Kalung</button>
+      <button type="button" class="filter-btn" data-filter="Kesehatan & Steril">Kesehatan &amp; Steril</button>
+      <button type="button" class="filter-btn" data-filter="Etika Interaksi">Etika Interaksi</button>
+      <button type="button" class="filter-btn" data-filter="Edukasi Adopsi">Edukasi Adopsi</button>
+    </div>
+  </div>
+
+  <div id="artikelContainer" class="artikel-grid">
+    <div class="spa-loader" style="grid-column: 1 / -1;">
+      <div class="spinner"></div>
+      <p>Memuat artikel edukasi Jaga Satwa...</p>
+    </div>
+  </div>
+
+  <div id="emptyArtikel" style="display: none; text-align: center; padding: 60px 20px;">
+    <p style="font-size: 1.2rem; color: var(--text-muted); margin-bottom: 12px;">Tidak ada artikel yang cocok dengan kata kunci pencarian Anda.</p>
+    <button type="button" class="btn btn-outline" id="btnResetSearch">Reset Pencarian</button>
+  </div>
+
+</div>
+
+<section class="donasi-section" id="donasiSection">
+  <div class="container">
+    <div class="donasi-card">
+      <div class="donasi-grid">
+        
+        <div>
+          <span class="badge badge-accent">Dukungan Kemanusiaan</span>
+          <h2 style="font-size: 1.8rem; font-weight: 800; color: var(--primary); margin: 10px 0 12px;">
+            Dukung Operasional Pakan &amp; Medis
+          </h2>
+          <p style="color: var(--text-muted); font-size: 0.98rem; line-height: 1.6; margin-bottom: 20px;">
+            Setiap butir pakan dan tindakan steril berasal dari gotong royong mahasiswa, dosen, serta masyarakat pecinta satwa. Salurkan kepedulian Anda untuk keberlanjutan ekosistem kampus yang ramah satwa.
+          </p>
+
+          <div class="rekening-box">
+            <div class="rekening-info">
+              <h5>Bank Syariah Indonesia (BSI)</h5>
+              <p style="font-family: monospace; font-size: 1.15rem; font-weight: 700; color: #1f2937;" id="nomorRekening">7192-0026-8814</p>
+              <p style="font-size: 0.82rem; color: var(--text-muted);">a.n. Komunitas Jaga Satwa UNESA</p>
+            </div>
+            <div>
+              <button type="button" class="btn btn-outline" id="btnSalinRekening">Salin No. Rekening</button>
+              <div class="toast-copy" id="toastSalin">Berhasil disalin ke clipboard</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="simulasi-box">
+          <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-main); margin-bottom: 8px;">
+            Simulasi Dampak Donasi Pakan
+          </h3>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">
+            Geser slider di bawah untuk melihat estimasi jumlah porsi makan kucing kampus yang terbantu:
+          </p>
+
+          <div class="simulasi-slider-wrap">
+            <label for="sliderDonasi" style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.95rem; margin-bottom: 8px;">
+              <span>Nominal Donasi:</span>
+              <span id="labelNominalDonasi" style="color: var(--primary); font-size: 1.15rem;">Rp 50.000</span>
+            </label>
+            <input type="range" id="sliderDonasi" class="simulasi-slider" min="10000" max="500000" step="10000" value="50000">
+            <div style="display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--text-light); margin-top: 4px;">
+              <span>Rp 10.000</span>
+              <span>Rp 250.000</span>
+              <span>Rp 500.000</span>
+            </div>
+          </div>
+
+          <div class="simulasi-hasil" id="hasilSimulasi">
+            <h5 style="font-size: 0.95rem; color: #92400e; margin-bottom: 6px;">Estimasi Dampak:</h5>
+            <p id="teksEstimasiPakan" style="font-size: 0.92rem; color: #451a03; line-height: 1.5;">
+              Donasi <strong>Rp 50.000</strong> setara dengan <strong>2 Kaleng Wetfood Nutrisi</strong> atau <strong>1,5 kg Dryfood</strong>, mencukupi porsi makan <strong>5 kucing kampus</strong> selama 2 hari.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="modal-overlay" id="modalArtikel">
+  <div class="modal-card">
+    <div class="modal-header">
+      <div>
+        <span class="badge badge-primary" id="modalBadgeKategori">Kategori</span>
+        <h3 id="modalJudulArtikel" style="font-size: 1.4rem; color: var(--text-main); margin-top: 6px;">Judul Artikel</h3>
+        <p id="modalMetaArtikel" style="font-size: 0.82rem; color: var(--text-light); margin-top: 2px;">Oleh Penulis | Tanggal</p>
+      </div>
+      <button type="button" class="modal-close-btn" id="btnTutupModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <div id="modalParagraf" class="modal-content">
+      </div>
+      <div class="modal-key-points">
+        <h5>Poin Kunci Penting:</h5>
+        <ul id="modalPoinKunci">
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
